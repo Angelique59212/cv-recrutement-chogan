@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%
+}
+
+#container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+#top {
+    width: 100%;
+    background-color: black;
+}
+
+#list {
+    display: inline-block;
+    float: left;
+    width: 30%;
+}
+
+li {
+    margin-left: 1rem;
+    list-style-type: none;
+    padding: 0.8rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: rosybrown;
+}
+
+#name {
+    font-size: 2rem;
+}
+
+#logo {
+    display: inline-block;
+    margin-left: 11rem;
+    width: 25%;
+    padding: 2rem;
+}
+
+#log {
+    width: 59%;
+    margin: 0 auto;
+
+}
+
+#group {
+    width: 100%;
+    background: linear-gradient(#f5f3f3, #efd6d6);
+}
+
+#left {
+    display: inline-block;
+    width: 60%;
+    border-right: 1px dashed black;
+}
+
+#right {
+    display: inline-block;
+    float: right;
+}
+
+#photo {
+    width: 90%;
+}
+
+#top2 {
+    padding: 3.5rem;
+}
+
+h1 {
+    width: 40%;
+    margin: 0 auto;
+    padding: 3rem;
+    font-weight: bold;
+    font-style: italic;
+    border: 1px solid white;
+    border-radius: 3px;
+    box-shadow: 8px 6px darkgray;
+}
+
+.title {
+    width: 60%;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+span {
+    font-weight: bold;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+p {
+    padding: 0.8rem;
+    font-size: 1.5rem;
+}
+
+#right2 {
+    display: inline-block;
+    float: right;
+    width: 37%;
+    margin-top: 15rem;
+}
+
+#cite {
+    width: 100%;
+    padding: 5rem;
+    text-align: center;
+    text-shadow: 0 0 5px grey;
+    color: purple;
+    font-weight: bold;
+}
+
+.style-cite {
+    font-size: 3rem;
+    font-style: italic;
+}
